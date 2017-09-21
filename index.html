@@ -1,36 +1,62 @@
 <html>
 <head>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.6/papaparse.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.6/papaparse.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <style type="text/css">
+        textarea {
+            width: 80%
+        }
+    </style>
 </head>
 <body>
+<h1>replace ark vanilla engrams with s+ engrams</h1>
 <pre>
 data sources:
-SPlus Replacements from https://docs.google.com/spreadsheets/d/189Wa_l9Eyx6bI2j-YOrrDGTR0YmJiIk6_r-8qtO41gE
+SPlus Replacements from https://docs.google.com/spreadsheets/d/189Wa_l9Eyx6bI2j-YOrrDGTR0YmJiIk6_r-8qtO41gE (this was linked to in this thread: http://steamcommunity.com/workshop/filedetails/discussion/731604991/1473095965281881898/ )
 Engram Details from https://ark.gamepedia.com/Engram_Classnames
 
 updated on 2017/09/17
 </pre>
+<h1>Method 1: exclude vanilla items, set correct costs for S+ items</h1>
+This method makes the in-game engram menu very laggy. The upside is that you don't have to care about other mods that
+might be installed.
 <h3>place in game.ini</h3>
-<textarea id="overrides" style="width: 100%; height: 80vh">
+<textarea id="overrides" rows="15">
 [/script/shootergame.shootergamemode]
 </textarea>
+<h1>Method 2: only use specific engrams, set correct costs for S+ items </h1>
+<p>This method works fluently in-game. But every time you install a mod, you have to re-create this list.</p>
+<p><em>Also, all non-S+ engrams will be level 0 and cost 0!</em></p>
+<h3>Step 1: gather a list of engrams for all your installed mods</h3>
+<p>To get this list, open powershell by right-clicking your bottom-left windows icon and choose "powershell". There,
+    insert this code:</p>
+<textarea rows="1">(Get-ChildItem -Path $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 346110" -Name InstallLocation).InstallLocation + "\ShooterGame\Content\Mods") -Recurse -Filter *EngramEntry_*).BaseName | ForEach-Object {"${_}_C"} > ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt"); notepad ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt")</textarea>
+<p>If this does not work (for example, if you did not install ark though steam or moved it to a different folder), open
+    a powershell, <b>cd</b> to your ark installation folder and execute this:</p>
+<textarea rows="1">(Get-ChildItem -Path .\ShooterGame\Content\Mods -Recurse -Filter *EngramEntry_*).BaseName | ForEach-Object {"${_}_C"}</textarea>
+<p>No matter what you did, it should return you a list of engrams. Copy that list on engrams into this text area:</p>
+<textarea id="mod-engrams" rows="15" placeholder="paste your engrams here"></textarea>
+<p>after that, you can use the list below. remember: if you add a new mod or one of your mods adds a new engram, you
+    have to generate this list again!</p>
+<h3>place in game.ini</h3>
+<textarea id="method2-output" rows="15"></textarea>
+
 <script type="text/javascript">
-  Promise.all([
-    new Promise((complete) => Papa.parse('./SPlusReplacements.csv', {
-      download: true,
-      header: true,
-      complete,
-    })),
-    new Promise((complete) => Papa.parse('./EngramDetails.csv', {
-      download: true,
-      header: true,
-      complete,
-    })),
-  ]).then(([sPlusReplacements, engramDetails]) => {
+  const sPlusReplacementsPromise = new Promise((complete) => Papa.parse('./SPlusReplacements.csv', {
+    download: true,
+    header: true,
+    complete,
+  }));
 
-    const textarea = document.getElementById('overrides');
+  const engramDetailsPromise = new Promise((complete) => Papa.parse('./EngramDetails.csv', {
+    download: true,
+    header: true,
+    complete,
+  }));
 
-    console.log({sPlusReplacements, engramDetails});
+  const calculateMethod1 = _.memoize((sPlusReplacements, engramDetails) => {
+    let ret = "";
 
     for (const {'Engram name': sPlusName, 'Replaced engram name': arkName} of sPlusReplacements.data) {
       if (arkName === 'NONE' || arkName === 'UNKNOWN')
@@ -43,15 +69,45 @@ updated on 2017/09/17
         continue;
       }
 
-      textarea.innerHTML += `OverrideNamedEngramEntries=(EngramClassName="${arkName}_C",EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="${sPlusName}_C",EngramLevelRequirement=${arkData['Required Level']},EngramPointsCost=${arkData['EP Cost']},EngramHidden=false,RemoveEngramPreReq=true)
-`;
-
+      ret += `OverrideNamedEngramEntries=(EngramClassName="${arkName}_C",EngramHidden=true)\n`;
+      ret += `OverrideNamedEngramEntries=(EngramClassName="${sPlusName}_C",EngramLevelRequirement=${arkData['Required Level']},EngramPointsCost=${arkData['EP Cost']},EngramHidden=false,RemoveEngramPreReq=true)\n`;
     }
 
-
+    return ret;
   });
 
+  const calculateMethod2 = _.debounce((sPlusReplacements, engramDetails) => {
+    console.log('recalc');
+
+    const newEngramTextArea = document.getElementById('mod-engrams');
+    const output = document.getElementById('method2-output');
+    const newEngrams = newEngramTextArea.value;
+
+    output.value = `bOnlyAllowSpecifiedEngrams=true\n`;
+    for (const line of newEngrams.split("\n").map(line => line.trim()).filter(line => !!line)) {
+
+      if (sPlusReplacements.data.some(sPlusItem => sPlusItem[`Engram name`].trim() + '_C' === line)) {
+        continue;
+      }
+      output.value += `OverrideNamedEngramEntries=(EngramClassName="${line}")\n`;
+    }
+    output.value += calculateMethod1(sPlusReplacements, engramDetails);
+  }, 500);
+
+
+  Promise.all([
+    sPlusReplacementsPromise,
+    engramDetailsPromise,
+  ]).then(([sPlusReplacements, engramDetails]) => {
+    console.log({sPlusReplacements, engramDetails});
+
+    document.getElementById('overrides').value = calculateMethod1(sPlusReplacements, engramDetails);
+
+    const modEngramsTextArea = document.getElementById('mod-engrams');
+    calculateMethod2(sPlusReplacements, engramDetails);
+    modEngramsTextArea.onchange = () => calculateMethod2(sPlusReplacements, engramDetails);
+    modEngramsTextArea.onkeyup = () => calculateMethod2(sPlusReplacements, engramDetails);
+  });
 </script>
 </body>
 </html>
