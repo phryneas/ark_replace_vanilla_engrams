@@ -31,10 +31,33 @@ might be installed.
 <h3>Step 1: gather a list of engrams for all your installed mods</h3>
 <p>To get this list, open powershell by right-clicking your bottom-left windows icon and choose "powershell". There,
     insert this code:</p>
-<textarea rows="1">(Get-ChildItem -Path $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 346110" -Name InstallLocation).InstallLocation + "\ShooterGame\Content\Mods") -Recurse -Filter *EngramEntry_*).BaseName | ForEach-Object {"${_}_C"} > ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt"); notepad ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt")</textarea>
+<textarea rows="1">
+    (Get-ChildItem -Path $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 346110" -Name InstallLocation).InstallLocation + "\ShooterGame\Content\Mods") -Recurse -Filter *EngramEntry_*.uasset) |
+    Where-Object {$_.BaseName -notmatch  '_Child_'} |
+ForEach{
+	$bytes = [System.IO.File]::ReadAllBytes($_.FullName);
+	$offset = [System.BitConverter]::ToUInt32($bytes, 0x49);
+	$level = [System.BitConverter]::ToUInt32($bytes, $offset+0xC0);
+	$level = if ($level -lt 255) {$level} else {0};
+	$ep = [System.BitConverter]::ToUInt32($bytes, $offset+0xDC);
+	$ep = if ($ep -lt 255) {$ep} else {0};
+	Write-Output (${_}.BaseName+"_C "+$level+" "+$ep);
+} | Out-File ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt"); notepad ([System.IO.Path]::GetTempPath() + "/ArkEngrams.txt")
+</textarea>
 <p>If this does not work (for example, if you did not install ark though steam or moved it to a different folder), open
     a powershell, <b>cd</b> to your ark installation folder and execute this:</p>
-<textarea rows="1">(Get-ChildItem -Path .\ShooterGame\Content\Mods -Recurse -Filter *EngramEntry_*).BaseName | ForEach-Object {"${_}_C"}</textarea>
+<textarea rows="1">
+    (Get-ChildItem -Path .\ShooterGame\Content\Mods -Recurse -Filter *EngramEntry_*) |
+    ForEach{
+	$bytes = [System.IO.File]::ReadAllBytes($_.FullName);
+	$offset = [System.BitConverter]::ToUInt32($bytes, 0x49);
+	$level = [System.BitConverter]::ToUInt32($bytes, $offset+0xC0);
+	$level = if ($level -lt 255) {$level} else {0};
+	$ep = [System.BitConverter]::ToUInt32($bytes, $offset+0xDC);
+	$ep = if ($ep -lt 255) {$ep} else {0};
+	Write-Output (${_}.BaseName+"_C "+$level+" "+$ep);
+}
+</textarea>
 <p>No matter what you did, it should return you a list of engrams. Copy that list on engrams into this text area:</p>
 <textarea id="mod-engrams" rows="15" placeholder="paste your engrams here"></textarea>
 <p>after that, you can use the list below. remember: if you add a new mod or one of your mods adds a new engram, you
@@ -84,16 +107,26 @@ might be installed.
     const newEngrams = newEngramTextArea.value;
 
     output.value = `bOnlyAllowSpecifiedEngrams=true\n`;
-    for (const line of newEngrams.split("\n").map(line => line.trim()).filter(line => !!line)) {
-
-      if (sPlusReplacements.data.some(sPlusItem => sPlusItem[`Engram name`].trim() + '_C' === line)) {
+    output.value += `; unmodified vanilla engrams\n`;
+    for (const {'Engram Classname': vanillaEngram, 'EP Cost': epCost, 'Required Level': requiredLevel} of engramDetails.data) {
+      if (engramDetails.data.some(({'Replaced engram name': replacedEngramName}) => vanillaEngram.trim() === `${replacedEngramName}_C`)) {
         continue;
       }
-      output.value += `OverrideNamedEngramEntries=(EngramClassName="${line}")\n`;
-    }
-    output.value += calculateMethod1(sPlusReplacements, engramDetails);
-  }, 500);
 
+      output.value += `OverrideNamedEngramEntries=(EngramClassName="${vanillaEngram.trim()}",EngramLevelRequirement=${requiredLevel},EngramPointsCost=${epCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
+    }
+    output.value += `; s+ engrams\n`;
+    output.value += calculateMethod1(sPlusReplacements, engramDetails);
+
+    output.value += `; other mods\n`;
+    for (const line of newEngrams.split("\n").map(line => line.trim()).filter(line => !!line)) {
+      const [engramName, requiredLevel, epCost] = line.split(' ');
+      if (sPlusReplacements.data.some(sPlusItem => sPlusItem[`Engram name`].trim() + '_C' === engramName)) {
+        continue;
+      }
+      output.value += `OverrideNamedEngramEntries=(EngramClassName="${engramName}",EngramLevelRequirement=${requiredLevel},EngramPointsCost=${epCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
+    }
+  }, 500);
 
   Promise.all([
     sPlusReplacementsPromise,
