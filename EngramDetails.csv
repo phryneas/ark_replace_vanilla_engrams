@@ -1,473 +1,473 @@
-Item Name	Engram Classname	Engram Index	EP Cost	Required Level
-Behemoth Tek Gate 	EngramEntry_Tek_Gate_Large_C 	432 	0 	0
-Behemoth Tek Gateway 	EngramEntry_Tek_Gategrame_Large_C 	434 	0 	0
-Cloning Chamber 	EngramEntry_TekCloningChamber_C 	461 	0 	0
-Megalodon Tek Saddle 	EngramEntry_TekMegalodonSaddle_C 	457 	0 	0
-Mosasaur Tek Saddle 	EngramEntry_TekMosaSaddle_C 	458 	0 	0
-Rex Tek Saddle 	EngramEntry_TekRexSaddle_C 	427 	0 	0
-Sloped Tek Roof 	EngramEntry_TekRoof_C 	451 	0 	0
-Sloped Tek Wall Left 	EngramEntry_TekSlopedWall_Left_C 	448 	0 	0
-Sloped Tek Wall Right 	EngramEntry_TekSlopedWall_Right_C 	449 	0 	0
-TEK Chestpiece 	EngramEntry_TekShirt_C 	423 	0 	0
-Tapejara Tek Saddle 	EngramEntry_TekTapejaraSaddle_C 	470 	0 	0
-Tek ATV 	EngramEntry_TekATV_C 	471 	0 	0
-Tek Boots 	EngramEntry_TekBoots_C 	419 	0 	0
-Tek Catwalk 	EngramEntry_TekCatwalk_C 	435 	0 	0
-Tek Ceiling 	EngramEntry_TekCeiling_C 	436 	0 	0
-Tek Dinosaur Gate 	EngramEntry_Tek_Gate_C 	431 	0 	0
-Tek Dinosaur Gateway 	EngramEntry_Tek_Gategrame_C 	433 	0 	0
-Tek Door 	EngramEntry_TekDoor_C 	438 	0 	0
-Tek Doorframe 	EngramEntry_TekWallWithDoor_C 	445 	0 	0
-Tek Fence Foundation 	EngramEntry_TekFenceFoundation_C 	453 	0 	0
-Tek Forcefield 	EngramEntry_TekShield_C 	430 	0 	0
-Tek Foundation 	EngramEntry_TekFloor_C 	439 	0 	0
-Tek Gauntlets 	EngramEntry_TekGloves_C 	420 	0 	0
-Tek Generator 	EngramEntry_TekGenerator_C 	454 	0 	0
-Tek Grenade 	EngramEntry_TekGrenade_C 	425 	0 	0
-Tek Hatchframe 	EngramEntry_TekCeilingWithTrapdoor_C 	437 	0 	0
-Tek Helmet 	EngramEntry_TekHelmet_C 	421 	0 	0
-Tek Ladder 	EngramEntry_TekLadder_C 	440 	0 	0
-Tek Leggings 	EngramEntry_TekPants_C 	422 	0 	0
-Tek Pillar 	EngramEntry_TekPillar_C 	441 	0 	0
-Tek Railing 	EngramEntry_TekRailing_C 	452 	0 	0
-Tek Ramp 	EngramEntry_TekRamp_C 	442 	0 	0
-Tek Replicator 	EngramEntry_TekReplicator_C 	428 	0 	0
-Tek Rifle 	EngramEntry_TekRifle_C 	424 	0 	0
-Tek Staircase 	EngramEntry_TekStairs_C 	450 	0 	0
-Tek Teleporter 	EngramEntry_TekTeleporter_C 	456 	0 	0
-Tek Transmitter 	EngramEntry_TekTransmitter_C 	429 	0 	0
-Tek Trapdoor 	EngramEntry_TekTrapdoor_C 	443 	0 	0
-Tek Trough 	EngramEntry_TekTrough_C 	455 	0 	0
-Tek Turret 	EngramEntry_TurretTek_C 	426 	0 	0
-Tek Wall 	EngramEntry_TekWall_C 	444 	0 	0
-Tek Window 	EngramEntry_TekWindow_C 	447 	0 	0
-Tek Windowframe 	EngramEntry_TekWallWithWindow_C 	446 	0 	0
-Vacuum Compartment 	EngramEntry_TekUnderwaterBase_C 	459 	0 	0
-Vacuum Compartment Moonpool 	EngramEntry_TekUnderwaterBase_BottomEntry_C 	460 	0 	0
-Note 	EngramEntry_NotePaper_C 	4 	0 	1
-Stone Pick 	EngramEntry_StonePick_C 	5 	0 	1
-Torch 	EngramEntry_Torch_C 	6 	0 	1
-Campfire 	EngramEntry_Campfire_C 	0 	3 	2
-Spear 	EngramEntry_Spear_C 	3 	3 	2
-Stone Hatchet 	EngramEntry_StoneHatchet_C 	1 	3 	2
-Cloth Boots 	EngramEntry_ClothBoots_C 	13 	3 	3
-Cloth Gloves 	EngramEntry_ClothGloves_C 	12 	3 	3
-Cloth Hat 	EngramEntry_ClothHelmet_C 	14 	3 	3
-Cloth Pants 	EngramEntry_ClothPants_C 	7 	3 	3
-Cloth Shirt 	EngramEntry_ClothShirt_C 	8 	3 	3
-Waterskin 	EngramEntry_Waterskin_C 	11 	6 	3
-Hide Sleeping Bag 	EngramEntry_HideSleepingBag_C 	16 	3 	4
-Storage Box 	EngramEntry_StorageBox_Small_C 	21 	6 	4
-Thatch Ceiling 	EngramEntry_ThatchCeiling_C 	17 	3 	4
-Thatch Door 	EngramEntry_ThatchDoor_C 	19 	3 	4
-Thatch Doorframe 	EngramEntry_ThatchWallWithDoor_C 	10 	3 	4
-Thatch Foundation 	EngramEntry_ThatchFloor_C 	9 	3 	4
-Thatch Wall 	EngramEntry_ThatchWall_C 	18 	3 	4
-Clay 	EngramEntry_Clay_C 	27 	3 	5
-Phiomia Saddle 	EngramEntry_Saddle_Phiomia_C 	23 	6 	5
-Preserving Salt 	EngramEntry_PreservingSalt_C 	26 	3 	5
-Slingshot 	EngramEntry_Slingshot_C 	20 	6 	5
-Sloped Thatch Roof 	EngramEntry_ThatchRoof_C 	36 	3 	5
-Sloped Thatch Wall Left 	EngramEntry_ThatchSlopedWall_left_C 	34 	3 	5
-Sloped Thatch Wall Right 	EngramEntry_ThatchSlopedWall_Right_C 	35 	3 	5
-Wooden Sign 	EngramEntry_WoodSign_C 	15 	3 	5
-Blood Extraction Syringe 	EngramEntry_BloodExtractor_C 	28 	6 	6
-Mortar and Pestle 	EngramEntry_MortarAndPestle_C 	24 	6 	6
-Narcotic 	EngramEntry_Narcotic_C 	29 	6 	6
-Sparkpowder 	EngramEntry_Sparkpowder_C 	25 	3 	6
-Simple Bed 	EngramEntry_SimpleBed_C 	22 	8 	7
-Single Panel Flag 	EngramEntry_FlagSingle_C 	31 	6 	7
-Spyglass 	EngramEntry_Spyglass_C 	52 	2 	7
-Standing Torch 	EngramEntry_StandingTorch_C 	33 	6 	7
-Tent 	EngramEntry_Tent_C 	41 	8 	7
-Compass 	EngramEntry_Compass_C 	51 	5 	8
-Cooking Pot 	EngramEntry_CookingPot_C 	43 	9 	8
-Multi-Panel Flag 	EngramEntry_Flag_C 	32 	6 	8
-Wooden Club 	EngramEntry_StoneClub_C 	2 	4 	8
-Bola 	EngramEntry_Bola_C 	50 	8 	9
-Boomerang 	EngramEntry_Boomerang_C 	42 	2 	9
-Paintbrush 	EngramEntry_Paintbrush_C 	30 	3 	9
-Parasaur Saddle 	EngramEntry_Saddle_Para_C 	56 	9 	9
-Training Dummy 	EngramEntry_TrainingDummy_C 	71 	8 	9
-Bow 	EngramEntry_Bow_C 	76 	11 	10
-Carbonemys Saddle 	EngramEntry_Saddle_Turtle_C 	178 	12 	10
-Small Crop Plot 	EngramEntry_CropPlot_Small_C 	53 	9 	10
-Stone Arrow 	EngramEntry_ArrowStone_C 	77 	2 	10
-Morellatops Saddle 	EngramEntry_Saddle_Camelsaurus_C 	86 	11 	11
-Stimulant 	EngramEntry_Stimulant_C 	45 	6 	11
-Wooden Ceiling 	EngramEntry_WoodCeiling_C 	64 	6 	11
-Wooden Door 	EngramEntry_WoodDoor_C 	70 	4 	11
-Wooden Doorframe 	EngramEntry_WoodWallWithDoor_C 	69 	6 	11
-Wooden Fence Foundation 	EngramEntry_WoodFenceFoundation_C 	73 	6 	11
-Wooden Foundation 	EngramEntry_WoodFloor_C 	37 	6 	11
-Wooden Wall 	EngramEntry_WoodWall_C 	38 	7 	11
-Sloped Wood Wall Left 	EngramEntry_WoodSlopedWall_Left_C 	66 	3 	12
-Sloped Wood Wall Right 	EngramEntry_WoodSlopedWall_Right_C 	67 	3 	12
-Wooden Cage 	EngramEntry_WoodCage_C 	49 	10 	12
-Wooden Pillar 	EngramEntry_WoodPillar_C 	101 	9 	12
-Wooden Ramp 	EngramEntry_WoodRamp_C 	98 	3 	12
-Wooden Shield 	EngramEntry_WoodShield_C 	48 	7 	12
-Cementing Paste 	EngramEntry_ChitinPaste_C 	44 	3 	13
-Ichthyosaurus Saddle 	EngramEntry_Saddle_Dolphin_C 	57 	8 	13
-Vessel 	EngramEntry_Vessel_C 	112 	10 	13
-Wardrums 	EngramEntry_Wardrums_C 	55 	6 	13
-Wooden Hatchframe 	EngramEntry_WoodCeilingWithTrapdoor_C 	102 	9 	13
-Wooden Ladder 	EngramEntry_WoodLadder_C 	103 	6 	13
-Wooden Spike Wall 	EngramEntry_WoodSpikeWall_C 	62 	4 	13
-Wooden Trapdoor 	EngramEntry_WoodTrapdoor_C 	129 	6 	13
-Pachy Saddle 	EngramEntry_Saddle_Pachy_C 	87 	9 	14
-Sloped Wooden Roof 	EngramEntry_WoodRoof_C 	68 	4 	14
-Wooden Catwalk 	EngramEntry_WoodCatwalk_C 	128 	8 	14
-Wooden Railing 	EngramEntry_WoodRailing_C 	65 	3 	14
-Wooden Staircase 	EngramEntry_WoodStairs_C 	40 	10 	14
-Wooden Window 	EngramEntry_WoodWindow_C 	187 	6 	14
-Wooden Windowframe 	EngramEntry_WoodWallWithWindow_C 	130 	9 	14
-Adobe Ceiling 	EngramEntry_AdobeCeiling_C 	106 	5 	15
-Adobe Door 	EngramEntry_AdobeDoor_C 	110 	4 	15
-Adobe Doorframe 	EngramEntry_AdobeWallWithDoor_C 	109 	6 	15
-Adobe Fence Foundation 	EngramEntry_AdobeFenceFoundation_C 	107 	6 	15
-Adobe Foundation 	EngramEntry_AdobeFloor_C 	104 	6 	15
-Adobe Wall 	EngramEntry_AdobeWall_C 	105 	7 	15
-Compost Bin 	EngramEntry_CompostBin_C 	93 	6 	15
-Flare Gun 	EngramEntry_FlareLauncher_C 	47 	6 	15
-Gunpowder 	EngramEntry_Gunpowder_C 	46 	2 	15
-Hide Boots 	EngramEntry_HideBoots_C 	115 	7 	15
-Hide Gloves 	EngramEntry_HideGloves_C 	114 	7 	15
-Hide Hat 	EngramEntry_HideHelmet_C 	116 	9 	15
-Hide Pants 	EngramEntry_HidePants_C 	74 	9 	15
-Hide Shirt 	EngramEntry_HideShirt_C 	75 	6 	15
-Water Well 	EngramEntry_WaterWell_C 	79 	10 	15
-Adobe Hatchframe 	EngramEntry_AdobeCeilingWithTrapdoor_C 	136 	8 	16
-Adobe Ladder 	EngramEntry_AdobeLadder_C 	111 	6 	16
-Adobe Ramp 	EngramEntry_AdobeRamp_C 	135 	3 	16
-Adobe Trapdoor 	EngramEntry_AdobeTrapdoor_C 	137 	6 	16
-Bug Repellant 	EngramEntry_BugRepel_C 	85 	12 	16
-Gravestone 	EngramEntry_Gravestone_C 	54 	8 	16
-Large Storage Box 	EngramEntry_StorageBox_Large_C 	80 	9 	16
-Rope Ladder 	EngramEntry_RopeLadder_C 	61 	5 	16
-Trike Saddle 	EngramEntry_Saddle_Trike_C 	123 	12 	16
-Wooden Raft 	EngramEntry_Raft_C 	83 	11 	16
-Adobe Pillar 	EngramEntry_AdobePillar_C 	131 	8 	17
-Adobe Railing 	EngramEntry_AdobeRailing_C 	108 	2 	17
-Adobe Staircase 	EngramEntry_AdobeStairs_C 	140 	15 	17
-Stone Irrigation Pipe - Inclined 	EngramEntry_StonePipeInclined_C 	91 	3 	17
-Stone Irrigation Pipe - Intake 	EngramEntry_StonePipeIntake_C 	58 	5 	17
-Stone Irrigation Pipe - Intersection 	EngramEntry_StonePipeIntersection_C 	90 	5 	17
-Stone Irrigation Pipe - Straight 	EngramEntry_StonePipeStraight_C 	59 	2 	17
-Stone Irrigation Pipe - Tap 	EngramEntry_StonePipeTap_C 	60 	5 	17
-Stone Irrigation Pipe - Vertical 	EngramEntry_StonePipeVertical_C 	92 	3 	17
-Water Reservoir 	EngramEntry_WaterTank_C 	96 	7 	17
-Dinosaur Gate 	EngramEntry_WoodGate_C 	100 	5 	18
-Dinosaur Gateway 	EngramEntry_WoodGateway_C 	99 	7 	18
-Feeding Trough 	EngramEntry_FeedingTrough_C 	113 	12 	18
-Fishing Rod 	EngramEntry_FishingRod_C 	120 	15 	18
-Lesser Antidote 	EngramEntry_CureLow_C 	119 	16 	18
-Preserving Bin 	EngramEntry_PreservingBin_C 	127 	9 	18
-Raptor Saddle 	EngramEntry_Saddle_Raptor_C 	88 	9 	18
-Sloped Adobe Roof 	EngramEntry_AdobeRoof_C 	132 	5 	18
-Sloped Adobe Wall Left 	EngramEntry_AdobeSlopedWall_Left_C 	133 	3 	18
-Sloped Adobe Wall Right 	EngramEntry_AdobeSlopedWall_Right_C 	134 	3 	18
-Bookshelf 	EngramEntry_Bookshelf_C 	153 	15 	19
-Hyaenodon Meatpack 	EngramEntry_Saddle_Hyaenodon_C 	462 	14 	19
-Wooden Bench 	EngramEntry_WoodBench_C 	81 	10 	19
-Wooden Billboard 	EngramEntry_WoodSign_Large_C 	97 	4 	19
-Wooden Chair 	EngramEntry_WoodChair_C 	39 	6 	19
-Wooden Table 	EngramEntry_Furniture_WoodTable_C 	82 	7 	19
-Wooden Wall Sign 	EngramEntry_WoodSign_Wall_C 	63 	2 	19
-Adobe Window 	EngramEntry_AdobeWindow_C 	139 	6 	20
-Adobe Windowframe 	EngramEntry_AdobeWallWithWindow_C 	138 	8 	20
-Equus Saddle 	EngramEntry_Saddle_Equus_C 	163 	22 	20
-Metal Hatchet 	EngramEntry_MetalHatchet_C 	159 	6 	20
-Metal Pick 	EngramEntry_MetalPick_C 	158 	6 	20
-Refining Forge 	EngramEntry_Forge_C 	122 	21 	20
-Smithy 	EngramEntry_AnvilBench_C 	155 	18 	20
-Whip 	EngramEntry_WeaponWhip_C 	78 	6 	20
-Painting Canvas 	EngramEntry_PaintingCanvas_C 	72 	2 	21
-Scissors 	EngramEntry_Scissors_C 	161 	10 	21
-Tranq Arrow 	EngramEntry_ArrowTranq_C 	117 	8 	21
-Wall Torch 	EngramEntry_WallTorch_C 	181 	8 	21
-Parachute 	EngramEntry_Parachute_C 	84 	6 	22
-Propellant 	EngramEntry_Propellant_C 	121 	12 	22
-Pulmonoscorpius Saddle 	EngramEntry_Saddle_Scorpion_C 	177 	12 	22
-Tripwire Alarm Trap 	EngramEntry_AlarmTrap_C 	125 	7 	22
-Trophy Wall-Mount 	EngramEntry_TrophyWall_C 	118 	10 	22
-Fur Boots 	EngramEntry_FurBoots_C 	166 	12 	23
-Fur Cap 	EngramEntry_FurHelmet_C 	168 	14 	23
-Fur Chestpiece 	EngramEntry_FurShirt_C 	170 	16 	23
-Fur Gauntlets 	EngramEntry_FurGloves_C 	167 	12 	23
-Fur Leggings 	EngramEntry_FurPants_C 	169 	16 	23
-Procoptodon Saddle 	EngramEntry_Saddle_Procop_C 	340 	35 	23
-Oil Jar 	EngramEntry_OilJar_C 	124 	15 	24
-Reinforced Wooden Door 	EngramEntry_StoneDoor_C 	149 	4 	24
-Smoke Grenade 	EngramEntry_GasGrenade_C 	189 	18 	24
-Stone Ceiling 	EngramEntry_StoneCeiling_C 	143 	6 	24
-Stone Doorframe 	EngramEntry_StoneWallWithDoor_C 	148 	6 	24
-Stone Foundation 	EngramEntry_StoneFloor_C 	142 	6 	24
-Stone Wall 	EngramEntry_StoneWall_C 	95 	8 	24
-Artifact Pedastal 	EngramEntry_TrophyBase_C 	126 	10 	25
-Crossbow 	EngramEntry_Crossbow_C 	171 	12 	25
-Magnifying Glass 	EngramEntry_MagnifyingGlass_C 	152 	16 	25
-Pike 	EngramEntry_Pike_C 	160 	10 	25
-Stone Fence Foundation 	EngramEntry_StoneFenceFoundation_C 	94 	6 	25
-Stone Pillar 	EngramEntry_StonePillar_C 	184 	8 	25
-Flame Arrow 	EngramEntry_FlameArrow_C 	172 	15 	26
-Medium Crop Plot 	EngramEntry_CropPlot_Medium_C 	179 	12 	26
-Reinforced Trapdoor 	EngramEntry_StoneTrapdoor_C 	219 	10 	26
-Reinforced Window 	EngramEntry_StoneWindow_C 	220 	10 	26
-Stego Saddle 	EngramEntry_Saddle_Stego_C 	214 	15 	26
-Stone Hatchframe 	EngramEntry_StoneCeilingWithTrapdoor_C 	185 	8 	26
-Stone Windowframe 	EngramEntry_StoneWallWithWindow_C 	186 	11 	26
-Water Jar 	EngramEntry_WaterJar_C 	201 	12 	26
-Pachyrhinosaurus Saddle 	EngramEntry_Saddle_PachyRhino_C 	176 	18 	27
-Reinforced Dinosaur Gate 	EngramEntry_StoneGate_C 	151 	6 	27
-Sloped Stone Roof 	EngramEntry_StoneRoof_C 	147 	4 	27
-Sloped Stone Wall Left 	EngramEntry_StoneSlopedWall_Left_C 	145 	4 	27
-Sloped Stone Wall Right 	EngramEntry_StoneSlopedWall_Right_C 	146 	4 	27
-Stone Dinosaur Gateway 	EngramEntry_StoneGateway_C 	150 	9 	27
-Bear Trap 	EngramEntry_BearTrap_C 	174 	9 	28
-Desert Cloth Boots 	EngramEntry_DesertClothBoots_C 	196 	7 	28
-Desert Cloth Gloves 	EngramEntry_DesertClothGloves_C 	195 	7 	28
-Desert Cloth Pants 	EngramEntry_DesertClothPants_C 	165 	5 	28
-Desert Cloth Shirt 	EngramEntry_DesertClothShirt_C 	164 	4 	28
-Desert Goggles and Hat 	EngramEntry_DesertClothGooglesHelmet_C 	194 	7 	28
-Handcuffs 	EngramEntry_Handcuffs_C 	156 	16 	28
-Manta Saddle 	EngramEntry_Saddle_Manta_C 	216 	16 	28
-Stone Fireplace 	EngramEntry_Fireplace_C 	202 	15 	28
-Stone Railing 	EngramEntry_StoneRailing_C 	144 	4 	28
-Stone Staircase 	EngramEntry_StoneStairs_C 	141 	15 	28
-Balista Turret 	EngramEntry_BallistaTurret_C 	190 	25 	29
-Gallimimus Saddle 	EngramEntry_Saddle_Galli_C 	208 	20 	29
-Metal Spike Wall 	EngramEntry_MetalSpikeWall_C 	157 	11 	29
-Spear Bolt 	EngramEntry_BallistaArrow_C 	191 	10 	29
-Tripwire Narcotic Trap 	EngramEntry_PoisonTrap_C 	173 	9 	29
-Adobe Dinosaur Gate 	EngramEntry_AdobeGateway_C 	183 	8 	30
-Adobe Dinosaur Gateway 	EngramEntry_AdobeGate_C 	182 	12 	30
-Giant Reinforced Trapdoor 	EngramEntry_StoneTrapdoorGiant_C 	252 	20 	30
-Giant Stone Hatchframe 	EngramEntry_StoneCeilingWithTrapdoorGiant_C 	251 	20 	30
-Iguanodon Saddle 	EngramEntry_Saddle_Iguanodon_C 	89 	12 	30
-Megaloceros Saddle 	EngramEntry_Saddle_Stag_C 	206 	20 	30
-Metal Sickle 	EngramEntry_MetalSickle_C 	213 	12 	30
-Sword 	EngramEntry_Sword_C 	209 	11 	30
-Behemoth Reinforced Dinosaur Gate 	EngramEntry_StoneGateLarge_C 	193 	16 	31
-Behemoth Stone Dinosaur Gateway 	EngramEntry_StoneGateway_Large_C 	192 	12 	31
-Catapult Turret 	EngramEntry_CatapultTurret_C 	200 	25 	31
-Large Bear Trap 	EngramEntry_BearTrap_Large_C 	175 	12 	31
-Mammoth Saddle 	EngramEntry_Saddle_Mammoth_C 	265 	18 	31
-Diplodocus Saddle 	EngramEntry_Saddle_Diplodocus_C 	229 	30 	32
-Lance 	EngramEntry_Lance_C 	255 	30 	32
-Mirror 	EngramEntry_Mirror_C 	254 	25 	32
-Toilet 	EngramEntry_Toilet_C 	465 	35 	32
-Ghillie Boots 	EngramEntry_GhillieBoots_C 	259 	11 	33
-Ghillie Chestpiece 	EngramEntry_GhillieShirt_C 	233 	11 	33
-Ghillie Gauntlets 	EngramEntry_GhillieGloves_C 	258 	11 	33
-Ghillie Leggings 	EngramEntry_GhilliePants_C 	232 	11 	33
-Ghillie Mask 	EngramEntry_GhillieHelmet_C 	234 	13 	33
-Terror Bird Saddle 	EngramEntry_Saddle_TerrorBird_C 	162 	15 	33
-Wooden Tree Platform 	EngramEntry_TreePlatformWood_C 	205 	28 	33
-Cannon 	EngramEntry_Cannon_C 	256 	25 	34
-Cannon Ball 	EngramEntry_CannonBall_C 	257 	5 	34
-Doedicurus Saddle 	EngramEntry_Saddle_Doed_C 	215 	20 	34
-Giant Adobe Hatchframe 	EngramEntry_AdobeCeilingWithDoorWay_Giant_C 	203 	15 	34
-Giant Adobe Trapdoor 	EngramEntry_AdobeCeilingDoorGiant_C 	204 	12 	34
-Simple Bullet 	EngramEntry_SimpleBullet_C 	211 	6 	34
-Simple Pistol 	EngramEntry_Pistol_C 	210 	15 	34
-Longneck Rifle 	EngramEntry_SimpleRifle_C 	238 	18 	35
-Sarco Saddle 	EngramEntry_Saddle_Sarco_C 	242 	15 	35
-Scope Attachment 	EngramEntry_Scope_C 	212 	13 	35
-Simple Rifle Ammo 	EngramEntry_SimpleRifleBullet_C 	239 	6 	35
-Ankylo Saddle 	EngramEntry_Saddle_Ankylo_C 	264 	18 	36
-Beer Barrel 	EngramEntry_BeerBarrel_C 	237 	24 	36
-Large Crop Plot 	EngramEntry_CropPlot_Large_C 	240 	15 	36
-Lymantria Saddle 	EngramEntry_Saddle_Moth_C 	235 	12 	36
-Tree Sap Tap 	EngramEntry_TreeSapTap_C 	236 	18 	36
-Chitin Boots 	EngramEntry_ChitinBoots_C 	231 	15 	37
-Chitin Chestpiece 	EngramEntry_ChitinShirt_C 	198 	18 	37
-Chitin Gauntlets 	EngramEntry_ChitinGloves_C 	230 	15 	37
-Chitin Helmet 	EngramEntry_ChitinHelmet_C 	199 	18 	37
-Chitin Leggings 	EngramEntry_ChitinPants_C 	197 	15 	37
-Sabertooth Saddle 	EngramEntry_Saddle_Saber_C 	293 	18 	37
-Behemoth Adobe Dinosaur Gate 	EngramEntry_AdobeGate_Large_C 	270 	15 	38
-Behemoth Adobe Dinosaur Gateway 	EngramEntry_AdobeGateway_Large_C 	269 	18 	38
-Grenade 	EngramEntry_Grenade_C 	218 	20 	38
-Pteranodon Saddle 	EngramEntry_Saddle_Ptero_C 	241 	15 	38
-Re-Fertilizer 	EngramEntry_MiracleGro_C 	253 	20 	38
-Kaprosuchus Saddle 	EngramEntry_Saddle_Kaprosuchus_C 	268 	28 	39
-Metal Shield 	EngramEntry_MetalShield_C 	207 	9 	39
-Shotgun 	EngramEntry_SimpleShotgun_C 	243 	18 	39
-Simple Shotgun Ammo 	EngramEntry_SimpleShotgunBullet_C 	244 	6 	39
-Araneo Saddle 	EngramEntry_Saddle_Spider_C 	266 	18 	40
-Beelzebufo Saddle 	EngramEntry_Saddle_Toad_C 	154 	16 	40
-Metal Irrigation Pipe - Inclined 	EngramEntry_MetalPipeIncline_C 	287 	12 	40
-Metal Irrigation Pipe - Intake 	EngramEntry_MetalPipeIntake_C 	271 	15 	40
-Metal Irrigation Pipe - Intersection 	EngramEntry_MetalPipeIntersection_C 	286 	18 	40
-Metal Irrigation Pipe - Straight 	EngramEntry_MetalPipeStraight_C 	272 	12 	40
-Metal Irrigation Pipe - Tap 	EngramEntry_MetalPipeTap_C 	289 	18 	40
-Metal Irrigation Pipe - Vertical 	EngramEntry_MetalPipeVertical_C 	288 	12 	40
-Poison Grenade 	EngramEntry_PoisonGrenade_C 	261 	18 	40
-Thorny Dragon Saddle 	EngramEntry_Saddle_SpineyLizard_C 	263 	18 	40
-Metal Water Reservoir 	EngramEntry_WaterTankMetal_C 	290 	20 	41
-Paracer Saddle 	EngramEntry_Saddle_Paracer_C 	217 	18 	41
-Silencer Attachment 	EngramEntry_Silencer_C 	262 	13 	41
-Chalicotherium Saddle 	EngramEntry_Saddle_Chalico_C 	320 	30 	42
-Greenhouse Ceiling 	EngramEntry_GreenhouseCeiling_C 	300 	30 	42
-Greenhouse Wall 	EngramEntry_GreenhouseWall_C 	299 	30 	42
-Greenhouse Door 	EngramEntry_GreenhouseDoor_C 	302 	15 	43
-Greenhouse Doorframe 	EngramEntry_GreenhouseWallWithDoor_C 	301 	15 	43
-Harpoon Launcher 	EngramEntry_HarpoonGun_C 	466 	38 	43
-Pelagornis Saddle 	EngramEntry_Saddle_Pela_C 	279 	30 	43
-Dunkleosteus Saddle 	EngramEntry_Saddle_Dunkle_C 	267 	20 	44
-Greenhouse Window 	EngramEntry_GreenhouseWindow_C 	315 	15 	44
-Improvised Explosive Device 	EngramEntry_TripwireC4_C 	284 	30 	44
-Sloped Greenhouse Roof 	EngramEntry_GreenhouseRoof_C 	314 	30 	44
-Sloped Greenhouse Wall Left 	EngramEntry_GreenhouseSlopedWall_Left_C 	312 	15 	44
-Sloped Greenhouse Wall Right 	EngramEntry_GreenhouseSlopedWall_Right_C 	313 	15 	44
-Dire Bear Saddle 	EngramEntry_Saddle_Direbear_C 	228 	24 	45
-Mantis Saddle 	EngramEntry_Saddle_Mantis_C 	319 	18 	45
-Metal Ceiling 	EngramEntry_MetalCeiling_C 	246 	15 	45
-Metal Door 	EngramEntry_MetalDoor_C 	248 	12 	45
-Metal Doorframe 	EngramEntry_MetalWallWithDoor_C 	227 	24 	45
-Metal Foundation 	EngramEntry_MetalFloor_C 	222 	24 	45
-Metal Wall 	EngramEntry_MetalWall_C 	223 	15 	45
-Carno Saddle 	EngramEntry_Saddle_Carno_C 	321 	21 	46
-Metal Billboard 	EngramEntry_MetalSign_Large_C 	309 	15 	46
-Metal Pillar 	EngramEntry_MetalPillar_C 	245 	18 	46
-Metal Railing 	EngramEntry_MetalRailing_C 	224 	7 	46
-Metal Staircase 	EngramEntry_MetalStairs_C 	250 	20 	46
-Metal Window 	EngramEntry_MetalWindow_C 	310 	18 	46
-Metal Windowframe 	EngramEntry_MetalWallWithWindow_C 	297 	18 	46
-Grappling Hook 	EngramEntry_GrapplingHook_C 	325 	40 	47
-Megalodon Saddle 	EngramEntry_Saddle_Megalodon_C 	291 	18 	47
-Metal Catwalk 	EngramEntry_MetalCatwalk_C 	311 	18 	47
-Metal Ramp 	EngramEntry_MetalRamp_C 	249 	12 	47
-Sloped Metal Roof 	EngramEntry_MetalRoof_C 	247 	10 	47
-Sloped Metal Wall Left 	EngramEntry_MetalSlopedWall_Left_C 	225 	7 	47
-Sloped Metal Wall Right 	EngramEntry_MetalSlopedWall_Right_C 	226 	7 	47
-Electronics 	EngramEntry_Electronics_C 	280 	6 	48
-Fabricator 	EngramEntry_Fabricator_C 	260 	24 	48
-Metal Fence Foundation 	EngramEntry_MetalFenceFoundation_C 	275 	12 	48
-Metal Hatchframe 	EngramEntry_MetalCeilingWithTrapdoor_C 	273 	18 	48
-Metal Ladder 	EngramEntry_MetalLadder_C 	298 	21 	48
-Metal Trapdoor 	EngramEntry_MetalTrapdoor_C 	274 	14 	48
-Polymer 	EngramEntry_Polymer_C 	278 	6 	48
-Baryonyx Saddle 	EngramEntry_Saddle_Baryonyx_C 	292 	24 	49
-Electrical Cable Intersection 	EngramEntry_PowerCableIntersection_C 	343 	24 	49
-Electrical Generator 	EngramEntry_PowerGenerator_C 	326 	24 	49
-Electrical Outlet 	EngramEntry_PowerOutlet_C 	329 	16 	49
-Inclined Electrical Cable 	EngramEntry_PowerCableIncline_C 	341 	16 	49
-Straight Electrical Cable 	EngramEntry_PowerCableStraight_C 	327 	16 	49
-Vertical Electrical Cable 	EngramEntry_PowerCableVertical_C 	342 	16 	49
-Camera 	EngramEntry_Camera_C 	336 	30 	50
-Industrial Grill 	EngramEntry_Grill_C 	296 	40 	50
-Lamppost 	EngramEntry_Lamppost_C 	335 	20 	50
-Metal Sign 	EngramEntry_MetalSign_C 	180 	10 	50
-Metal Wall Sign 	EngramEntry_MetalSign_Wall_C 	221 	6 	50
-Omnidirectional Lamppost 	EngramEntry_LamppostOmni_C 	334 	20 	50
-Paracer Platform Saddle 	EngramEntry_Saddle_Paracer_Platform_C 	294 	24 	50
-Wind Turbine 	EngramEntry_WindTurbine_C 	285 	18 	50
-Chain Bola 	EngramEntry_ChainBola_C 	305 	30 	51
-Radio 	EngramEntry_Radio_C 	188 	8 	51
-Thylacoleo Saddle 	EngramEntry_Saddle_Thylaco_C 	318 	18 	51
-War Map 	EngramEntry_WarMap_C 	337 	15 	51
-Flashlight Attachment 	EngramEntry_Flashlight_C 	303 	18 	52
-GPS 	EngramEntry_GPS_C 	304 	21 	52
-Megatherium Saddle 	EngramEntry_Saddle_Megatherium_C 	463 	24 	52
-Metal Dinosaur Gate 	EngramEntry_MetalGate_C 	277 	8 	52
-Metal Dinosaur Gateway 	EngramEntry_MetalGateway_C 	276 	12 	52
-Remote Keypad 	EngramEntry_Keypad_C 	333 	18 	53
-Spray Painter 	EngramEntry_SprayPainter_C 	366 	30 	53
-Woolly Rhino Saddle 	EngramEntry_Saddle_Rhino_C 	295 	24 	53
-Arthropluera Saddle 	EngramEntry_Saddle_Arthro_C 	339 	30 	54
-Bunk Bed 	EngramEntry_ModernBed_C 	364 	28 	54
-Canteen 	EngramEntry_Canteen_C 	323 	24 	54
-Giant Metal Hatchframe 	EngramEntry_MetalCeilingWithTrapdoorGiant_C 	316 	30 	54
-Giant Metal Trapdoor 	EngramEntry_MetalTrapdoorGiant_C 	317 	30 	54
-Advanced Bullet 	EngramEntry_AdvancedBullet_C 	331 	8 	55
-Chainsaw 	EngramEntry_ChainSaw_C 	283 	21 	55
-Fabricated Pistol 	EngramEntry_MachinedPistol_C 	330 	18 	55
-Pump-Action Shotgun 	EngramEntry_MachinedShotgun_C 	332 	18 	55
-Tapejara Saddle 	EngramEntry_Saddle_Tapejara_C 	322 	21 	55
-Flak Boots 	EngramEntry_MetalBoots_C 	306 	16 	56
-Flak Chestpiece 	EngramEntry_MetalShirt_C 	282 	18 	56
-Flak Gauntlets 	EngramEntry_MetalGloves_C 	307 	16 	56
-Flak Helmet 	EngramEntry_MetalHelmet_C 	308 	20 	56
-Flak Leggings 	EngramEntry_MetalPants_C 	281 	15 	56
-Behemoth Gate 	EngramEntry_MetalGate_Large_C 	359 	15 	57
-Behemoth Gateway 	EngramEntry_MetalGateway_Large_C 	358 	28 	57
-Megalosaurus Saddle 	EngramEntry_Saddle_Megalosaurus_C 	388 	50 	57
-Motorboat 	EngramEntry_Motorboat_C 	468 	45 	57
-Advanced Rifle Bullet 	EngramEntry_AdvancedRifleBullet_C 	354 	8 	58
-Assault Rifle 	EngramEntry_MachinedRifle_C 	353 	24 	58
-Daeodon Saddle 	EngramEntry_Saddle_Daeodon_C 	328 	24 	59
-Laser Attachment 	EngramEntry_Laser_C 	355 	24 	59
-Metal Tree Platform 	EngramEntry_TreePlatformMetal_C 	365 	55 	59
-Basilosaurus Saddle 	EngramEntry_Saddle_Basilosaurus_C 	344 	30 	60
-Oil Pump 	EngramEntry_OilPump_C 	363 	24 	60
-Refrigerator 	EngramEntry_IceBox_C 	347 	20 	60
-Air Conditioner 	EngramEntry_AirConditioner_C 	348 	21 	61
-Castoroides Saddle 	EngramEntry_Saddle_Beaver_C 	356 	50 	61
-Argentavis Saddle 	EngramEntry_Saddle_Argentavis_C 	345 	21 	62
-Tranquilizer Dart 	EngramEntry_TranqDart_C 	383 	30 	62
-Bronto Saddle 	EngramEntry_Saddle_Sauro_C 	346 	21 	63
-Heavy Miner's Helmet 	EngramEntry_MinersHelmet_C 	378 	35 	63
-Industrial Grinder 	EngramEntry_Grinder_C 	371 	45 	64
-Plesiosaur Saddle 	EngramEntry_Saddle_Plesia_C 	367 	40 	64
-C4 Charge 	EngramEntry_C4Ammo_C 	352 	12 	65
-C4 Remote Detonator 	EngramEntry_WeaponC4_C 	351 	24 	65
-Flamethrower 	EngramEntry_Flamethrower_C 	349 	25 	65
-Flamethrower Ammo 	EngramEntry_FlamethrowerAmmo_C 	350 	10 	65
-Transponder Node 	EngramEntry_TransGPSAmmo_C 	381 	20 	66
-Transponder Tracker 	EngramEntry_TransGPS_C 	380 	30 	66
-Allosaurus Saddle 	EngramEntry_Saddle_Allo_C 	338 	35 	67
-Auto Turret 	EngramEntry_Turret_C 	370 	40 	68
-Therizinosaurus Saddle 	EngramEntry_Saddle_Therizino_C 	360 	40 	69
-Elevator Track 	EngramEntry_ElevatorTrack_C 	374 	40 	70
-Rock Golem Saddle 	EngramEntry_Saddle_RockGolem_C 	373 	40 	70
-Small Elevator Platform 	EngramEntry_ElevatorPlatformSmall_C 	375 	40 	70
-Spino Saddle 	EngramEntry_Saddle_Spino_C 	362 	40 	71
-Medium Elevator Platform 	EngramEntry_ElevatorPlatformMedium_C 	376 	40 	72
-Tranq Spear Bolt 	EngramEntry_TranqSpearBolt_C 	469 	40 	72
-Large Elevator Platform 	EngramEntry_ElevatorPlatformLarge_C 	377 	40 	73
-Megalania Saddle 	EngramEntry_Saddle_Megalania_C 	467 	65 	73
-Rex Saddle 	EngramEntry_Saddle_Rex_C 	361 	40 	74
-Vault 	EngramEntry_StorageBox_Huge_C 	382 	30 	75
-Quetz Saddle 	EngramEntry_Saddle_Quetz_C 	372 	44 	76
-Holo-Scope Attachment 	EngramEntry_HoloScope_C 	357 	24 	77
-Mosasaur Saddle 	EngramEntry_Saddle_Mosa_C 	397 	60 	78
-Compound Bow 	EngramEntry_CompoundBow_C 	386 	40 	79
-Metal Arrow 	EngramEntry_CompoundArrow_C 	387 	35 	79
-Cluster Grenade 	EngramEntry_ClusterGrenade_C 	324 	8 	80
-Industrial Forge 	EngramEntry_IndustrialForge_C 	407 	90 	80
-Yutyrannus Saddle 	EngramEntry_Saddle_Yuty_C 	464 	50 	80
-SCUBA Flippers 	EngramEntry_ScubaBoots_Flippers_C 	393 	20 	81
-SCUBA Leggings 	EngramEntry_ScubaPants_C 	394 	35 	81
-SCUBA Mask 	EngramEntry_ScubaHelmet_Goggles_C 	392 	25 	81
-SCUBA Tank 	EngramEntry_ScubaShirt_SuitWithTank_C 	391 	35 	81
-Bronto Platform Saddle 	EngramEntry_Saddle_Sauro_Platform_C 	389 	35 	82
-Chemistry Bench 	EngramEntry_ChemBench_C 	411 	65 	82
-Advanced Sniper Bullet 	EngramEntry_AdvancedSniperBullet_C 	385 	16 	83
-Fabricated Sniper Rifle 	EngramEntry_MachinedSniper_C 	384 	36 	83
-Absorbent Substrate 	EngramEntry_SubstrateAbsorbent_C 	413 	60 	84
-Plesiosaur Platform Saddle 	EngramEntry_Saddle_Plesio_Platform_C 	400 	80 	84
-Gas Mask 	EngramEntry_GasMask_C 	414 	100 	85
-Night Vision Goggles 	EngramEntry_NightVisionGoggles_C 	417 	100 	86
-Rocket Launcher 	EngramEntry_RocketLauncher_C 	368 	32 	87
-Rocket Propelled Grenade 	EngramEntry_RocketAmmo_C 	369 	8 	87
-Homing Underwater Mine 	EngramEntry_SeaMine_C 	396 	30 	88
-Industrial Cooker 	EngramEntry_IndustrialCookingPot_C 	398 	60 	89
-Pheromone Dart 	EngramEntry_AggroTranqDart_C 	418 	60 	90
-Rocket Homing Missile 	EngramEntry_RocketHommingAmmo_C 	395 	25 	90
-Tusoteuthis Saddle 	EngramEntry_Saddle_Tuso_C 	379 	40 	91
-Riot Shield 	EngramEntry_RiotShield_C 	390 	35 	92
-Mosasaur Platform Saddle 	EngramEntry_Saddle_Mosa_Platform_C 	409 	80 	93
-Minigun Turret 	EngramEntry_MinigunTurret_C 	408 	80 	94
-Electric Prod 	EngramEntry_ElectricProd_C 	399 	60 	95
-Giganotosaurus Saddle 	EngramEntry_Saddle_Gigant_C 	410 	75 	96
-Shocking Tranquilizer Dart 	EngramEntry_RefinedTranqDart_C 	412 	30 	96
-Quetz Platform Saddle 	EngramEntry_Saddle_Quetz_Platform_C 	401 	80 	97
-Riot Boots 	EngramEntry_RiotBoots_C 	405 	40 	98
-Riot Chestpiece 	EngramEntry_RiotShirt_C 	403 	40 	98
-Riot Gauntlets 	EngramEntry_RiotGloves_C 	404 	40 	98
-Riot Helmet 	EngramEntry_RiotHelmet_C 	406 	40 	98
-Riot Leggings 	EngramEntry_RiotPants_C 	402 	40 	98
-Rocket Turret 	EngramEntry_RocketTurret_C 	415 	100 	99
-Titanosaur Platform Saddle 	EngramEntry_Saddle_Titano_Platform_C 	416 	120 	100 
+ItemName	EngramClassname	EngramIndex	EPCost	RequiredLevel
+Behemoth Tek Gate	EngramEntry_Tek_Gate_Large_C	432	0	0
+Behemoth Tek Gateway	EngramEntry_Tek_Gategrame_Large_C	434	0	0
+Cloning Chamber	EngramEntry_TekCloningChamber_C	461	0	0
+Megalodon Tek Saddle	EngramEntry_TekMegalodonSaddle_C	457	0	0
+Mosasaur Tek Saddle	EngramEntry_TekMosaSaddle_C	458	0	0
+Rex Tek Saddle	EngramEntry_TekRexSaddle_C	427	0	0
+Sloped Tek Roof	EngramEntry_TekRoof_C	451	0	0
+Sloped Tek Wall Left	EngramEntry_TekSlopedWall_Left_C	448	0	0
+Sloped Tek Wall Right	EngramEntry_TekSlopedWall_Right_C	449	0	0
+TEK Chestpiece	EngramEntry_TekShirt_C	423	0	0
+Tapejara Tek Saddle	EngramEntry_TekTapejaraSaddle_C	470	0	0
+Tek ATV	EngramEntry_TekATV_C	471	0	0
+Tek Boots	EngramEntry_TekBoots_C	419	0	0
+Tek Catwalk	EngramEntry_TekCatwalk_C	435	0	0
+Tek Ceiling	EngramEntry_TekCeiling_C	436	0	0
+Tek Dinosaur Gate	EngramEntry_Tek_Gate_C	431	0	0
+Tek Dinosaur Gateway	EngramEntry_Tek_Gategrame_C	433	0	0
+Tek Door	EngramEntry_TekDoor_C	438	0	0
+Tek Doorframe	EngramEntry_TekWallWithDoor_C	445	0	0
+Tek Fence Foundation	EngramEntry_TekFenceFoundation_C	453	0	0
+Tek Forcefield	EngramEntry_TekShield_C	430	0	0
+Tek Foundation	EngramEntry_TekFloor_C	439	0	0
+Tek Gauntlets	EngramEntry_TekGloves_C	420	0	0
+Tek Generator	EngramEntry_TekGenerator_C	454	0	0
+Tek Grenade	EngramEntry_TekGrenade_C	425	0	0
+Tek Hatchframe	EngramEntry_TekCeilingWithTrapdoor_C	437	0	0
+Tek Helmet	EngramEntry_TekHelmet_C	421	0	0
+Tek Ladder	EngramEntry_TekLadder_C	440	0	0
+Tek Leggings	EngramEntry_TekPants_C	422	0	0
+Tek Pillar	EngramEntry_TekPillar_C	441	0	0
+Tek Railing	EngramEntry_TekRailing_C	452	0	0
+Tek Ramp	EngramEntry_TekRamp_C	442	0	0
+Tek Replicator	EngramEntry_TekReplicator_C	428	0	0
+Tek Rifle	EngramEntry_TekRifle_C	424	0	0
+Tek Staircase	EngramEntry_TekStairs_C	450	0	0
+Tek Teleporter	EngramEntry_TekTeleporter_C	456	0	0
+Tek Transmitter	EngramEntry_TekTransmitter_C	429	0	0
+Tek Trapdoor	EngramEntry_TekTrapdoor_C	443	0	0
+Tek Trough	EngramEntry_TekTrough_C	455	0	0
+Tek Turret	EngramEntry_TurretTek_C	426	0	0
+Tek Wall	EngramEntry_TekWall_C	444	0	0
+Tek Window	EngramEntry_TekWindow_C	447	0	0
+Tek Windowframe	EngramEntry_TekWallWithWindow_C	446	0	0
+Vacuum Compartment	EngramEntry_TekUnderwaterBase_C	459	0	0
+Vacuum Compartment Moonpool	EngramEntry_TekUnderwaterBase_BottomEntry_C	460	0	0
+Note	EngramEntry_NotePaper_C	4	0	1
+Stone Pick	EngramEntry_StonePick_C	5	0	1
+Torch	EngramEntry_Torch_C	6	0	1
+Campfire	EngramEntry_Campfire_C	0	3	2
+Spear	EngramEntry_Spear_C	3	3	2
+Stone Hatchet	EngramEntry_StoneHatchet_C	1	3	2
+Cloth Boots	EngramEntry_ClothBoots_C	13	3	3
+Cloth Gloves	EngramEntry_ClothGloves_C	12	3	3
+Cloth Hat	EngramEntry_ClothHelmet_C	14	3	3
+Cloth Pants	EngramEntry_ClothPants_C	7	3	3
+Cloth Shirt	EngramEntry_ClothShirt_C	8	3	3
+Waterskin	EngramEntry_Waterskin_C	11	6	3
+Hide Sleeping Bag	EngramEntry_HideSleepingBag_C	16	3	4
+Storage Box	EngramEntry_StorageBox_Small_C	21	6	4
+Thatch Ceiling	EngramEntry_ThatchCeiling_C	17	3	4
+Thatch Door	EngramEntry_ThatchDoor_C	19	3	4
+Thatch Doorframe	EngramEntry_ThatchWallWithDoor_C	10	3	4
+Thatch Foundation	EngramEntry_ThatchFloor_C	9	3	4
+Thatch Wall	EngramEntry_ThatchWall_C	18	3	4
+Clay	EngramEntry_Clay_C	27	3	5
+Phiomia Saddle	EngramEntry_Saddle_Phiomia_C	23	6	5
+Preserving Salt	EngramEntry_PreservingSalt_C	26	3	5
+Slingshot	EngramEntry_Slingshot_C	20	6	5
+Sloped Thatch Roof	EngramEntry_ThatchRoof_C	36	3	5
+Sloped Thatch Wall Left	EngramEntry_ThatchSlopedWall_left_C	34	3	5
+Sloped Thatch Wall Right	EngramEntry_ThatchSlopedWall_Right_C	35	3	5
+Wooden Sign	EngramEntry_WoodSign_C	15	3	5
+Blood Extraction Syringe	EngramEntry_BloodExtractor_C	28	6	6
+Mortar and Pestle	EngramEntry_MortarAndPestle_C	24	6	6
+Narcotic	EngramEntry_Narcotic_C	29	6	6
+Sparkpowder	EngramEntry_Sparkpowder_C	25	3	6
+Simple Bed	EngramEntry_SimpleBed_C	22	8	7
+Single Panel Flag	EngramEntry_FlagSingle_C	31	6	7
+Spyglass	EngramEntry_Spyglass_C	52	2	7
+Standing Torch	EngramEntry_StandingTorch_C	33	6	7
+Tent	EngramEntry_Tent_C	41	8	7
+Compass	EngramEntry_Compass_C	51	5	8
+Cooking Pot	EngramEntry_CookingPot_C	43	9	8
+Multi-Panel Flag	EngramEntry_Flag_C	32	6	8
+Wooden Club	EngramEntry_StoneClub_C	2	4	8
+Bola	EngramEntry_Bola_C	50	8	9
+Boomerang	EngramEntry_Boomerang_C	42	2	9
+Paintbrush	EngramEntry_Paintbrush_C	30	3	9
+Parasaur Saddle	EngramEntry_Saddle_Para_C	56	9	9
+Training Dummy	EngramEntry_TrainingDummy_C	71	8	9
+Bow	EngramEntry_Bow_C	76	11	10
+Carbonemys Saddle	EngramEntry_Saddle_Turtle_C	178	12	10
+Small Crop Plot	EngramEntry_CropPlot_Small_C	53	9	10
+Stone Arrow	EngramEntry_ArrowStone_C	77	2	10
+Morellatops Saddle	EngramEntry_Saddle_Camelsaurus_C	86	11	11
+Stimulant	EngramEntry_Stimulant_C	45	6	11
+Wooden Ceiling	EngramEntry_WoodCeiling_C	64	6	11
+Wooden Door	EngramEntry_WoodDoor_C	70	4	11
+Wooden Doorframe	EngramEntry_WoodWallWithDoor_C	69	6	11
+Wooden Fence Foundation	EngramEntry_WoodFenceFoundation_C	73	6	11
+Wooden Foundation	EngramEntry_WoodFloor_C	37	6	11
+Wooden Wall	EngramEntry_WoodWall_C	38	7	11
+Sloped Wood Wall Left	EngramEntry_WoodSlopedWall_Left_C	66	3	12
+Sloped Wood Wall Right	EngramEntry_WoodSlopedWall_Right_C	67	3	12
+Wooden Cage	EngramEntry_WoodCage_C	49	10	12
+Wooden Pillar	EngramEntry_WoodPillar_C	101	9	12
+Wooden Ramp	EngramEntry_WoodRamp_C	98	3	12
+Wooden Shield	EngramEntry_WoodShield_C	48	7	12
+Cementing Paste	EngramEntry_ChitinPaste_C	44	3	13
+Ichthyosaurus Saddle	EngramEntry_Saddle_Dolphin_C	57	8	13
+Vessel	EngramEntry_Vessel_C	112	10	13
+Wardrums	EngramEntry_Wardrums_C	55	6	13
+Wooden Hatchframe	EngramEntry_WoodCeilingWithTrapdoor_C	102	9	13
+Wooden Ladder	EngramEntry_WoodLadder_C	103	6	13
+Wooden Spike Wall	EngramEntry_WoodSpikeWall_C	62	4	13
+Wooden Trapdoor	EngramEntry_WoodTrapdoor_C	129	6	13
+Pachy Saddle	EngramEntry_Saddle_Pachy_C	87	9	14
+Sloped Wooden Roof	EngramEntry_WoodRoof_C	68	4	14
+Wooden Catwalk	EngramEntry_WoodCatwalk_C	128	8	14
+Wooden Railing	EngramEntry_WoodRailing_C	65	3	14
+Wooden Staircase	EngramEntry_WoodStairs_C	40	10	14
+Wooden Window	EngramEntry_WoodWindow_C	187	6	14
+Wooden Windowframe	EngramEntry_WoodWallWithWindow_C	130	9	14
+Adobe Ceiling	EngramEntry_AdobeCeiling_C	106	5	15
+Adobe Door	EngramEntry_AdobeDoor_C	110	4	15
+Adobe Doorframe	EngramEntry_AdobeWallWithDoor_C	109	6	15
+Adobe Fence Foundation	EngramEntry_AdobeFenceFoundation_C	107	6	15
+Adobe Foundation	EngramEntry_AdobeFloor_C	104	6	15
+Adobe Wall	EngramEntry_AdobeWall_C	105	7	15
+Compost Bin	EngramEntry_CompostBin_C	93	6	15
+Flare Gun	EngramEntry_FlareLauncher_C	47	6	15
+Gunpowder	EngramEntry_Gunpowder_C	46	2	15
+Hide Boots	EngramEntry_HideBoots_C	115	7	15
+Hide Gloves	EngramEntry_HideGloves_C	114	7	15
+Hide Hat	EngramEntry_HideHelmet_C	116	9	15
+Hide Pants	EngramEntry_HidePants_C	74	9	15
+Hide Shirt	EngramEntry_HideShirt_C	75	6	15
+Water Well	EngramEntry_WaterWell_C	79	10	15
+Adobe Hatchframe	EngramEntry_AdobeCeilingWithTrapdoor_C	136	8	16
+Adobe Ladder	EngramEntry_AdobeLadder_C	111	6	16
+Adobe Ramp	EngramEntry_AdobeRamp_C	135	3	16
+Adobe Trapdoor	EngramEntry_AdobeTrapdoor_C	137	6	16
+Bug Repellant	EngramEntry_BugRepel_C	85	12	16
+Gravestone	EngramEntry_Gravestone_C	54	8	16
+Large Storage Box	EngramEntry_StorageBox_Large_C	80	9	16
+Rope Ladder	EngramEntry_RopeLadder_C	61	5	16
+Trike Saddle	EngramEntry_Saddle_Trike_C	123	12	16
+Wooden Raft	EngramEntry_Raft_C	83	11	16
+Adobe Pillar	EngramEntry_AdobePillar_C	131	8	17
+Adobe Railing	EngramEntry_AdobeRailing_C	108	2	17
+Adobe Staircase	EngramEntry_AdobeStairs_C	140	15	17
+Stone Irrigation Pipe - Inclined	EngramEntry_StonePipeInclined_C	91	3	17
+Stone Irrigation Pipe - Intake	EngramEntry_StonePipeIntake_C	58	5	17
+Stone Irrigation Pipe - Intersection	EngramEntry_StonePipeIntersection_C	90	5	17
+Stone Irrigation Pipe - Straight	EngramEntry_StonePipeStraight_C	59	2	17
+Stone Irrigation Pipe - Tap	EngramEntry_StonePipeTap_C	60	5	17
+Stone Irrigation Pipe - Vertical	EngramEntry_StonePipeVertical_C	92	3	17
+Water Reservoir	EngramEntry_WaterTank_C	96	7	17
+Dinosaur Gate	EngramEntry_WoodGate_C	100	5	18
+Dinosaur Gateway	EngramEntry_WoodGateway_C	99	7	18
+Feeding Trough	EngramEntry_FeedingTrough_C	113	12	18
+Fishing Rod	EngramEntry_FishingRod_C	120	15	18
+Lesser Antidote	EngramEntry_CureLow_C	119	16	18
+Preserving Bin	EngramEntry_PreservingBin_C	127	9	18
+Raptor Saddle	EngramEntry_Saddle_Raptor_C	88	9	18
+Sloped Adobe Roof	EngramEntry_AdobeRoof_C	132	5	18
+Sloped Adobe Wall Left	EngramEntry_AdobeSlopedWall_Left_C	133	3	18
+Sloped Adobe Wall Right	EngramEntry_AdobeSlopedWall_Right_C	134	3	18
+Bookshelf	EngramEntry_Bookshelf_C	153	15	19
+Hyaenodon Meatpack	EngramEntry_Saddle_Hyaenodon_C	462	14	19
+Wooden Bench	EngramEntry_WoodBench_C	81	10	19
+Wooden Billboard	EngramEntry_WoodSign_Large_C	97	4	19
+Wooden Chair	EngramEntry_WoodChair_C	39	6	19
+Wooden Table	EngramEntry_Furniture_WoodTable_C	82	7	19
+Wooden Wall Sign	EngramEntry_WoodSign_Wall_C	63	2	19
+Adobe Window	EngramEntry_AdobeWindow_C	139	6	20
+Adobe Windowframe	EngramEntry_AdobeWallWithWindow_C	138	8	20
+Equus Saddle	EngramEntry_Saddle_Equus_C	163	22	20
+Metal Hatchet	EngramEntry_MetalHatchet_C	159	6	20
+Metal Pick	EngramEntry_MetalPick_C	158	6	20
+Refining Forge	EngramEntry_Forge_C	122	21	20
+Smithy	EngramEntry_AnvilBench_C	155	18	20
+Whip	EngramEntry_WeaponWhip_C	78	6	20
+Painting Canvas	EngramEntry_PaintingCanvas_C	72	2	21
+Scissors	EngramEntry_Scissors_C	161	10	21
+Tranq Arrow	EngramEntry_ArrowTranq_C	117	8	21
+Wall Torch	EngramEntry_WallTorch_C	181	8	21
+Parachute	EngramEntry_Parachute_C	84	6	22
+Propellant	EngramEntry_Propellant_C	121	12	22
+Pulmonoscorpius Saddle	EngramEntry_Saddle_Scorpion_C	177	12	22
+Tripwire Alarm Trap	EngramEntry_AlarmTrap_C	125	7	22
+Trophy Wall-Mount	EngramEntry_TrophyWall_C	118	10	22
+Fur Boots	EngramEntry_FurBoots_C	166	12	23
+Fur Cap	EngramEntry_FurHelmet_C	168	14	23
+Fur Chestpiece	EngramEntry_FurShirt_C	170	16	23
+Fur Gauntlets	EngramEntry_FurGloves_C	167	12	23
+Fur Leggings	EngramEntry_FurPants_C	169	16	23
+Procoptodon Saddle	EngramEntry_Saddle_Procop_C	340	35	23
+Oil Jar	EngramEntry_OilJar_C	124	15	24
+Reinforced Wooden Door	EngramEntry_StoneDoor_C	149	4	24
+Smoke Grenade	EngramEntry_GasGrenade_C	189	18	24
+Stone Ceiling	EngramEntry_StoneCeiling_C	143	6	24
+Stone Doorframe	EngramEntry_StoneWallWithDoor_C	148	6	24
+Stone Foundation	EngramEntry_StoneFloor_C	142	6	24
+Stone Wall	EngramEntry_StoneWall_C	95	8	24
+Artifact Pedastal	EngramEntry_TrophyBase_C	126	10	25
+Crossbow	EngramEntry_Crossbow_C	171	12	25
+Magnifying Glass	EngramEntry_MagnifyingGlass_C	152	16	25
+Pike	EngramEntry_Pike_C	160	10	25
+Stone Fence Foundation	EngramEntry_StoneFenceFoundation_C	94	6	25
+Stone Pillar	EngramEntry_StonePillar_C	184	8	25
+Flame Arrow	EngramEntry_FlameArrow_C	172	15	26
+Medium Crop Plot	EngramEntry_CropPlot_Medium_C	179	12	26
+Reinforced Trapdoor	EngramEntry_StoneTrapdoor_C	219	10	26
+Reinforced Window	EngramEntry_StoneWindow_C	220	10	26
+Stego Saddle	EngramEntry_Saddle_Stego_C	214	15	26
+Stone Hatchframe	EngramEntry_StoneCeilingWithTrapdoor_C	185	8	26
+Stone Windowframe	EngramEntry_StoneWallWithWindow_C	186	11	26
+Water Jar	EngramEntry_WaterJar_C	201	12	26
+Pachyrhinosaurus Saddle	EngramEntry_Saddle_PachyRhino_C	176	18	27
+Reinforced Dinosaur Gate	EngramEntry_StoneGate_C	151	6	27
+Sloped Stone Roof	EngramEntry_StoneRoof_C	147	4	27
+Sloped Stone Wall Left	EngramEntry_StoneSlopedWall_Left_C	145	4	27
+Sloped Stone Wall Right	EngramEntry_StoneSlopedWall_Right_C	146	4	27
+Stone Dinosaur Gateway	EngramEntry_StoneGateway_C	150	9	27
+Bear Trap	EngramEntry_BearTrap_C	174	9	28
+Desert Cloth Boots	EngramEntry_DesertClothBoots_C	196	7	28
+Desert Cloth Gloves	EngramEntry_DesertClothGloves_C	195	7	28
+Desert Cloth Pants	EngramEntry_DesertClothPants_C	165	5	28
+Desert Cloth Shirt	EngramEntry_DesertClothShirt_C	164	4	28
+Desert Goggles and Hat	EngramEntry_DesertClothGooglesHelmet_C	194	7	28
+Handcuffs	EngramEntry_Handcuffs_C	156	16	28
+Manta Saddle	EngramEntry_Saddle_Manta_C	216	16	28
+Stone Fireplace	EngramEntry_Fireplace_C	202	15	28
+Stone Railing	EngramEntry_StoneRailing_C	144	4	28
+Stone Staircase	EngramEntry_StoneStairs_C	141	15	28
+Balista Turret	EngramEntry_BallistaTurret_C	190	25	29
+Gallimimus Saddle	EngramEntry_Saddle_Galli_C	208	20	29
+Metal Spike Wall	EngramEntry_MetalSpikeWall_C	157	11	29
+Spear Bolt	EngramEntry_BallistaArrow_C	191	10	29
+Tripwire Narcotic Trap	EngramEntry_PoisonTrap_C	173	9	29
+Adobe Dinosaur Gate	EngramEntry_AdobeGateway_C	183	8	30
+Adobe Dinosaur Gateway	EngramEntry_AdobeGate_C	182	12	30
+Giant Reinforced Trapdoor	EngramEntry_StoneTrapdoorGiant_C	252	20	30
+Giant Stone Hatchframe	EngramEntry_StoneCeilingWithTrapdoorGiant_C	251	20	30
+Iguanodon Saddle	EngramEntry_Saddle_Iguanodon_C	89	12	30
+Megaloceros Saddle	EngramEntry_Saddle_Stag_C	206	20	30
+Metal Sickle	EngramEntry_MetalSickle_C	213	12	30
+Sword	EngramEntry_Sword_C	209	11	30
+Behemoth Reinforced Dinosaur Gate	EngramEntry_StoneGateLarge_C	193	16	31
+Behemoth Stone Dinosaur Gateway	EngramEntry_StoneGateway_Large_C	192	12	31
+Catapult Turret	EngramEntry_CatapultTurret_C	200	25	31
+Large Bear Trap	EngramEntry_BearTrap_Large_C	175	12	31
+Mammoth Saddle	EngramEntry_Saddle_Mammoth_C	265	18	31
+Diplodocus Saddle	EngramEntry_Saddle_Diplodocus_C	229	30	32
+Lance	EngramEntry_Lance_C	255	30	32
+Mirror	EngramEntry_Mirror_C	254	25	32
+Toilet	EngramEntry_Toilet_C	465	35	32
+Ghillie Boots	EngramEntry_GhillieBoots_C	259	11	33
+Ghillie Chestpiece	EngramEntry_GhillieShirt_C	233	11	33
+Ghillie Gauntlets	EngramEntry_GhillieGloves_C	258	11	33
+Ghillie Leggings	EngramEntry_GhilliePants_C	232	11	33
+Ghillie Mask	EngramEntry_GhillieHelmet_C	234	13	33
+Terror Bird Saddle	EngramEntry_Saddle_TerrorBird_C	162	15	33
+Wooden Tree Platform	EngramEntry_TreePlatformWood_C	205	28	33
+Cannon	EngramEntry_Cannon_C	256	25	34
+Cannon Ball	EngramEntry_CannonBall_C	257	5	34
+Doedicurus Saddle	EngramEntry_Saddle_Doed_C	215	20	34
+Giant Adobe Hatchframe	EngramEntry_AdobeCeilingWithDoorWay_Giant_C	203	15	34
+Giant Adobe Trapdoor	EngramEntry_AdobeCeilingDoorGiant_C	204	12	34
+Simple Bullet	EngramEntry_SimpleBullet_C	211	6	34
+Simple Pistol	EngramEntry_Pistol_C	210	15	34
+Longneck Rifle	EngramEntry_SimpleRifle_C	238	18	35
+Sarco Saddle	EngramEntry_Saddle_Sarco_C	242	15	35
+Scope Attachment	EngramEntry_Scope_C	212	13	35
+Simple Rifle Ammo	EngramEntry_SimpleRifleBullet_C	239	6	35
+Ankylo Saddle	EngramEntry_Saddle_Ankylo_C	264	18	36
+Beer Barrel	EngramEntry_BeerBarrel_C	237	24	36
+Large Crop Plot	EngramEntry_CropPlot_Large_C	240	15	36
+Lymantria Saddle	EngramEntry_Saddle_Moth_C	235	12	36
+Tree Sap Tap	EngramEntry_TreeSapTap_C	236	18	36
+Chitin Boots	EngramEntry_ChitinBoots_C	231	15	37
+Chitin Chestpiece	EngramEntry_ChitinShirt_C	198	18	37
+Chitin Gauntlets	EngramEntry_ChitinGloves_C	230	15	37
+Chitin Helmet	EngramEntry_ChitinHelmet_C	199	18	37
+Chitin Leggings	EngramEntry_ChitinPants_C	197	15	37
+Sabertooth Saddle	EngramEntry_Saddle_Saber_C	293	18	37
+Behemoth Adobe Dinosaur Gate	EngramEntry_AdobeGate_Large_C	270	15	38
+Behemoth Adobe Dinosaur Gateway	EngramEntry_AdobeGateway_Large_C	269	18	38
+Grenade	EngramEntry_Grenade_C	218	20	38
+Pteranodon Saddle	EngramEntry_Saddle_Ptero_C	241	15	38
+Re-Fertilizer	EngramEntry_MiracleGro_C	253	20	38
+Kaprosuchus Saddle	EngramEntry_Saddle_Kaprosuchus_C	268	28	39
+Metal Shield	EngramEntry_MetalShield_C	207	9	39
+Shotgun	EngramEntry_SimpleShotgun_C	243	18	39
+Simple Shotgun Ammo	EngramEntry_SimpleShotgunBullet_C	244	6	39
+Araneo Saddle	EngramEntry_Saddle_Spider_C	266	18	40
+Beelzebufo Saddle	EngramEntry_Saddle_Toad_C	154	16	40
+Metal Irrigation Pipe - Inclined	EngramEntry_MetalPipeIncline_C	287	12	40
+Metal Irrigation Pipe - Intake	EngramEntry_MetalPipeIntake_C	271	15	40
+Metal Irrigation Pipe - Intersection	EngramEntry_MetalPipeIntersection_C	286	18	40
+Metal Irrigation Pipe - Straight	EngramEntry_MetalPipeStraight_C	272	12	40
+Metal Irrigation Pipe - Tap	EngramEntry_MetalPipeTap_C	289	18	40
+Metal Irrigation Pipe - Vertical	EngramEntry_MetalPipeVertical_C	288	12	40
+Poison Grenade	EngramEntry_PoisonGrenade_C	261	18	40
+Thorny Dragon Saddle	EngramEntry_Saddle_SpineyLizard_C	263	18	40
+Metal Water Reservoir	EngramEntry_WaterTankMetal_C	290	20	41
+Paracer Saddle	EngramEntry_Saddle_Paracer_C	217	18	41
+Silencer Attachment	EngramEntry_Silencer_C	262	13	41
+Chalicotherium Saddle	EngramEntry_Saddle_Chalico_C	320	30	42
+Greenhouse Ceiling	EngramEntry_GreenhouseCeiling_C	300	30	42
+Greenhouse Wall	EngramEntry_GreenhouseWall_C	299	30	42
+Greenhouse Door	EngramEntry_GreenhouseDoor_C	302	15	43
+Greenhouse Doorframe	EngramEntry_GreenhouseWallWithDoor_C	301	15	43
+Harpoon Launcher	EngramEntry_HarpoonGun_C	466	38	43
+Pelagornis Saddle	EngramEntry_Saddle_Pela_C	279	30	43
+Dunkleosteus Saddle	EngramEntry_Saddle_Dunkle_C	267	20	44
+Greenhouse Window	EngramEntry_GreenhouseWindow_C	315	15	44
+Improvised Explosive Device	EngramEntry_TripwireC4_C	284	30	44
+Sloped Greenhouse Roof	EngramEntry_GreenhouseRoof_C	314	30	44
+Sloped Greenhouse Wall Left	EngramEntry_GreenhouseSlopedWall_Left_C	312	15	44
+Sloped Greenhouse Wall Right	EngramEntry_GreenhouseSlopedWall_Right_C	313	15	44
+Dire Bear Saddle	EngramEntry_Saddle_Direbear_C	228	24	45
+Mantis Saddle	EngramEntry_Saddle_Mantis_C	319	18	45
+Metal Ceiling	EngramEntry_MetalCeiling_C	246	15	45
+Metal Door	EngramEntry_MetalDoor_C	248	12	45
+Metal Doorframe	EngramEntry_MetalWallWithDoor_C	227	24	45
+Metal Foundation	EngramEntry_MetalFloor_C	222	24	45
+Metal Wall	EngramEntry_MetalWall_C	223	15	45
+Carno Saddle	EngramEntry_Saddle_Carno_C	321	21	46
+Metal Billboard	EngramEntry_MetalSign_Large_C	309	15	46
+Metal Pillar	EngramEntry_MetalPillar_C	245	18	46
+Metal Railing	EngramEntry_MetalRailing_C	224	7	46
+Metal Staircase	EngramEntry_MetalStairs_C	250	20	46
+Metal Window	EngramEntry_MetalWindow_C	310	18	46
+Metal Windowframe	EngramEntry_MetalWallWithWindow_C	297	18	46
+Grappling Hook	EngramEntry_GrapplingHook_C	325	40	47
+Megalodon Saddle	EngramEntry_Saddle_Megalodon_C	291	18	47
+Metal Catwalk	EngramEntry_MetalCatwalk_C	311	18	47
+Metal Ramp	EngramEntry_MetalRamp_C	249	12	47
+Sloped Metal Roof	EngramEntry_MetalRoof_C	247	10	47
+Sloped Metal Wall Left	EngramEntry_MetalSlopedWall_Left_C	225	7	47
+Sloped Metal Wall Right	EngramEntry_MetalSlopedWall_Right_C	226	7	47
+Electronics	EngramEntry_Electronics_C	280	6	48
+Fabricator	EngramEntry_Fabricator_C	260	24	48
+Metal Fence Foundation	EngramEntry_MetalFenceFoundation_C	275	12	48
+Metal Hatchframe	EngramEntry_MetalCeilingWithTrapdoor_C	273	18	48
+Metal Ladder	EngramEntry_MetalLadder_C	298	21	48
+Metal Trapdoor	EngramEntry_MetalTrapdoor_C	274	14	48
+Polymer	EngramEntry_Polymer_C	278	6	48
+Baryonyx Saddle	EngramEntry_Saddle_Baryonyx_C	292	24	49
+Electrical Cable Intersection	EngramEntry_PowerCableIntersection_C	343	24	49
+Electrical Generator	EngramEntry_PowerGenerator_C	326	24	49
+Electrical Outlet	EngramEntry_PowerOutlet_C	329	16	49
+Inclined Electrical Cable	EngramEntry_PowerCableIncline_C	341	16	49
+Straight Electrical Cable	EngramEntry_PowerCableStraight_C	327	16	49
+Vertical Electrical Cable	EngramEntry_PowerCableVertical_C	342	16	49
+Camera	EngramEntry_Camera_C	336	30	50
+Industrial Grill	EngramEntry_Grill_C	296	40	50
+Lamppost	EngramEntry_Lamppost_C	335	20	50
+Metal Sign	EngramEntry_MetalSign_C	180	10	50
+Metal Wall Sign	EngramEntry_MetalSign_Wall_C	221	6	50
+Omnidirectional Lamppost	EngramEntry_LamppostOmni_C	334	20	50
+Paracer Platform Saddle	EngramEntry_Saddle_Paracer_Platform_C	294	24	50
+Wind Turbine	EngramEntry_WindTurbine_C	285	18	50
+Chain Bola	EngramEntry_ChainBola_C	305	30	51
+Radio	EngramEntry_Radio_C	188	8	51
+Thylacoleo Saddle	EngramEntry_Saddle_Thylaco_C	318	18	51
+War Map	EngramEntry_WarMap_C	337	15	51
+Flashlight Attachment	EngramEntry_Flashlight_C	303	18	52
+GPS	EngramEntry_GPS_C	304	21	52
+Megatherium Saddle	EngramEntry_Saddle_Megatherium_C	463	24	52
+Metal Dinosaur Gate	EngramEntry_MetalGate_C	277	8	52
+Metal Dinosaur Gateway	EngramEntry_MetalGateway_C	276	12	52
+Remote Keypad	EngramEntry_Keypad_C	333	18	53
+Spray Painter	EngramEntry_SprayPainter_C	366	30	53
+Woolly Rhino Saddle	EngramEntry_Saddle_Rhino_C	295	24	53
+Arthropluera Saddle	EngramEntry_Saddle_Arthro_C	339	30	54
+Bunk Bed	EngramEntry_ModernBed_C	364	28	54
+Canteen	EngramEntry_Canteen_C	323	24	54
+Giant Metal Hatchframe	EngramEntry_MetalCeilingWithTrapdoorGiant_C	316	30	54
+Giant Metal Trapdoor	EngramEntry_MetalTrapdoorGiant_C	317	30	54
+Advanced Bullet	EngramEntry_AdvancedBullet_C	331	8	55
+Chainsaw	EngramEntry_ChainSaw_C	283	21	55
+Fabricated Pistol	EngramEntry_MachinedPistol_C	330	18	55
+Pump-Action Shotgun	EngramEntry_MachinedShotgun_C	332	18	55
+Tapejara Saddle	EngramEntry_Saddle_Tapejara_C	322	21	55
+Flak Boots	EngramEntry_MetalBoots_C	306	16	56
+Flak Chestpiece	EngramEntry_MetalShirt_C	282	18	56
+Flak Gauntlets	EngramEntry_MetalGloves_C	307	16	56
+Flak Helmet	EngramEntry_MetalHelmet_C	308	20	56
+Flak Leggings	EngramEntry_MetalPants_C	281	15	56
+Behemoth Gate	EngramEntry_MetalGate_Large_C	359	15	57
+Behemoth Gateway	EngramEntry_MetalGateway_Large_C	358	28	57
+Megalosaurus Saddle	EngramEntry_Saddle_Megalosaurus_C	388	50	57
+Motorboat	EngramEntry_Motorboat_C	468	45	57
+Advanced Rifle Bullet	EngramEntry_AdvancedRifleBullet_C	354	8	58
+Assault Rifle	EngramEntry_MachinedRifle_C	353	24	58
+Daeodon Saddle	EngramEntry_Saddle_Daeodon_C	328	24	59
+Laser Attachment	EngramEntry_Laser_C	355	24	59
+Metal Tree Platform	EngramEntry_TreePlatformMetal_C	365	55	59
+Basilosaurus Saddle	EngramEntry_Saddle_Basilosaurus_C	344	30	60
+Oil Pump	EngramEntry_OilPump_C	363	24	60
+Refrigerator	EngramEntry_IceBox_C	347	20	60
+Air Conditioner	EngramEntry_AirConditioner_C	348	21	61
+Castoroides Saddle	EngramEntry_Saddle_Beaver_C	356	50	61
+Argentavis Saddle	EngramEntry_Saddle_Argentavis_C	345	21	62
+Tranquilizer Dart	EngramEntry_TranqDart_C	383	30	62
+Bronto Saddle	EngramEntry_Saddle_Sauro_C	346	21	63
+Heavy Miner's Helmet	EngramEntry_MinersHelmet_C	378	35	63
+Industrial Grinder	EngramEntry_Grinder_C	371	45	64
+Plesiosaur Saddle	EngramEntry_Saddle_Plesia_C	367	40	64
+C4 Charge	EngramEntry_C4Ammo_C	352	12	65
+C4 Remote Detonator	EngramEntry_WeaponC4_C	351	24	65
+Flamethrower	EngramEntry_Flamethrower_C	349	25	65
+Flamethrower Ammo	EngramEntry_FlamethrowerAmmo_C	350	10	65
+Transponder Node	EngramEntry_TransGPSAmmo_C	381	20	66
+Transponder Tracker	EngramEntry_TransGPS_C	380	30	66
+Allosaurus Saddle	EngramEntry_Saddle_Allo_C	338	35	67
+Auto Turret	EngramEntry_Turret_C	370	40	68
+Therizinosaurus Saddle	EngramEntry_Saddle_Therizino_C	360	40	69
+Elevator Track	EngramEntry_ElevatorTrack_C	374	40	70
+Rock Golem Saddle	EngramEntry_Saddle_RockGolem_C	373	40	70
+Small Elevator Platform	EngramEntry_ElevatorPlatformSmall_C	375	40	70
+Spino Saddle	EngramEntry_Saddle_Spino_C	362	40	71
+Medium Elevator Platform	EngramEntry_ElevatorPlatformMedium_C	376	40	72
+Tranq Spear Bolt	EngramEntry_TranqSpearBolt_C	469	40	72
+Large Elevator Platform	EngramEntry_ElevatorPlatformLarge_C	377	40	73
+Megalania Saddle	EngramEntry_Saddle_Megalania_C	467	65	73
+Rex Saddle	EngramEntry_Saddle_Rex_C	361	40	74
+Vault	EngramEntry_StorageBox_Huge_C	382	30	75
+Quetz Saddle	EngramEntry_Saddle_Quetz_C	372	44	76
+Holo-Scope Attachment	EngramEntry_HoloScope_C	357	24	77
+Mosasaur Saddle	EngramEntry_Saddle_Mosa_C	397	60	78
+Compound Bow	EngramEntry_CompoundBow_C	386	40	79
+Metal Arrow	EngramEntry_CompoundArrow_C	387	35	79
+Cluster Grenade	EngramEntry_ClusterGrenade_C	324	8	80
+Industrial Forge	EngramEntry_IndustrialForge_C	407	90	80
+Yutyrannus Saddle	EngramEntry_Saddle_Yuty_C	464	50	80
+SCUBA Flippers	EngramEntry_ScubaBoots_Flippers_C	393	20	81
+SCUBA Leggings	EngramEntry_ScubaPants_C	394	35	81
+SCUBA Mask	EngramEntry_ScubaHelmet_Goggles_C	392	25	81
+SCUBA Tank	EngramEntry_ScubaShirt_SuitWithTank_C	391	35	81
+Bronto Platform Saddle	EngramEntry_Saddle_Sauro_Platform_C	389	35	82
+Chemistry Bench	EngramEntry_ChemBench_C	411	65	82
+Advanced Sniper Bullet	EngramEntry_AdvancedSniperBullet_C	385	16	83
+Fabricated Sniper Rifle	EngramEntry_MachinedSniper_C	384	36	83
+Absorbent Substrate	EngramEntry_SubstrateAbsorbent_C	413	60	84
+Plesiosaur Platform Saddle	EngramEntry_Saddle_Plesio_Platform_C	400	80	84
+Gas Mask	EngramEntry_GasMask_C	414	100	85
+Night Vision Goggles	EngramEntry_NightVisionGoggles_C	417	100	86
+Rocket Launcher	EngramEntry_RocketLauncher_C	368	32	87
+Rocket Propelled Grenade	EngramEntry_RocketAmmo_C	369	8	87
+Homing Underwater Mine	EngramEntry_SeaMine_C	396	30	88
+Industrial Cooker	EngramEntry_IndustrialCookingPot_C	398	60	89
+Pheromone Dart	EngramEntry_AggroTranqDart_C	418	60	90
+Rocket Homing Missile	EngramEntry_RocketHommingAmmo_C	395	25	90
+Tusoteuthis Saddle	EngramEntry_Saddle_Tuso_C	379	40	91
+Riot Shield	EngramEntry_RiotShield_C	390	35	92
+Mosasaur Platform Saddle	EngramEntry_Saddle_Mosa_Platform_C	409	80	93
+Minigun Turret	EngramEntry_MinigunTurret_C	408	80	94
+Electric Prod	EngramEntry_ElectricProd_C	399	60	95
+Giganotosaurus Saddle	EngramEntry_Saddle_Gigant_C	410	75	96
+Shocking Tranquilizer Dart	EngramEntry_RefinedTranqDart_C	412	30	96
+Quetz Platform Saddle	EngramEntry_Saddle_Quetz_Platform_C	401	80	97
+Riot Boots	EngramEntry_RiotBoots_C	405	40	98
+Riot Chestpiece	EngramEntry_RiotShirt_C	403	40	98
+Riot Gauntlets	EngramEntry_RiotGloves_C	404	40	98
+Riot Helmet	EngramEntry_RiotHelmet_C	406	40	98
+Riot Leggings	EngramEntry_RiotPants_C	402	40	98
+Rocket Turret	EngramEntry_RocketTurret_C	415	100	99
+Titanosaur Platform Saddle	EngramEntry_Saddle_Titano_Platform_C	416	120	100 

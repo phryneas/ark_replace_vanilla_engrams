@@ -26,8 +26,7 @@ might be installed.
 [/script/shootergame.shootergamemode]
 </textarea>
 <h1>Method 2: only use specific engrams, set correct costs for S+ items </h1>
-<p>This method works fluently in-game. But every time you install a mod, you have to re-create this list.</p>
-<p><em>Also, all non-S+ engrams will be level 0 and cost 0!</em></p>
+<p>This method works fluently in-game. <b>But every time you install a mod, you have to re-create this list.</b></p>
 <h3>Step 1: gather a list of engrams for all your installed mods</h3>
 <p>To get this list, open powershell by right-clicking your bottom-left windows icon and choose "powershell". There,
     insert this code:</p>
@@ -81,19 +80,16 @@ ForEach{
   const calculateMethod1 = _.memoize((sPlusReplacements, engramDetails) => {
     let ret = "";
 
-    for (const {'Engram name': sPlusName, 'Replaced engram name': arkName} of sPlusReplacements.data) {
-      if (arkName === 'NONE' || arkName === 'UNKNOWN')
-        continue;
+    for (const {EngramName, ReplacedEngramName} of sPlusReplacements.data) {
+      const {RequiredLevel, EPCost} = engramDetails.data.find(({EngramClassname}) => EngramClassname === `${ReplacedEngramName}_C`);
 
-      const arkData = engramDetails.data.find(({'Engram Classname': arkClassName}) => arkClassName.trim() === `${arkName}_C`);
-
-      if (!arkData) {
-        console.info(`original data for engram "${sPlusName}" not found (was looking for "${arkName}_C")`);
+      if (typeof RequiredLevel === "undefined") {
+        console.info(`original data for engram "${EngramName}" not found (was looking for "${ReplacedEngramName}_C")`);
         continue;
       }
 
-      ret += `OverrideNamedEngramEntries=(EngramClassName="${arkName}_C",EngramHidden=true)\n`;
-      ret += `OverrideNamedEngramEntries=(EngramClassName="${sPlusName}_C",EngramLevelRequirement=${arkData['Required Level']},EngramPointsCost=${arkData['EP Cost']},EngramHidden=false,RemoveEngramPreReq=true)\n`;
+      ret += `OverrideNamedEngramEntries=(EngramClassName="${ReplacedEngramName}_C",EngramHidden=true)\n`;
+      ret += `OverrideNamedEngramEntries=(EngramClassName="${EngramName}_C",EngramLevelRequirement=${RequiredLevel},EngramPointsCost=${EPCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
     }
 
     return ret;
@@ -108,23 +104,23 @@ ForEach{
 
     output.value = `bOnlyAllowSpecifiedEngrams=true\n`;
     output.value += `; unmodified vanilla engrams\n`;
-    for (const {'Engram Classname': vanillaEngram, 'EP Cost': epCost, 'Required Level': requiredLevel} of engramDetails.data) {
-      if (engramDetails.data.some(({'Replaced engram name': replacedEngramName}) => vanillaEngram.trim() === `${replacedEngramName}_C`)) {
+    for (const {EngramClassname, EPCost, RequiredLevel} of engramDetails.data) {
+      if (engramDetails.data.some(({ReplacedEngramName}) => EngramClassname === `${ReplacedEngramName}_C`)) {
         continue;
       }
 
-      output.value += `OverrideNamedEngramEntries=(EngramClassName="${vanillaEngram.trim()}",EngramLevelRequirement=${requiredLevel},EngramPointsCost=${epCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
+      output.value += `OverrideNamedEngramEntries=(EngramClassName="${EngramClassname}",EngramLevelRequirement=${RequiredLevel},EngramPointsCost=${EPCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
     }
     output.value += `; s+ engrams\n`;
     output.value += calculateMethod1(sPlusReplacements, engramDetails);
 
     output.value += `; other mods\n`;
     for (const line of newEngrams.split("\n").map(line => line.trim()).filter(line => !!line)) {
-      const [engramName, requiredLevel, epCost] = line.split(' ');
-      if (sPlusReplacements.data.some(sPlusItem => sPlusItem[`Engram name`].trim() + '_C' === engramName)) {
+      [EngramClassname, RequiredLevel, EPCost] = line.split(' ');
+      if (sPlusReplacements.data.some(sPlusItem => sPlusItem.EngramName + '_C' === EngramClassname)) {
         continue;
       }
-      output.value += `OverrideNamedEngramEntries=(EngramClassName="${engramName}",EngramLevelRequirement=${requiredLevel},EngramPointsCost=${epCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
+      output.value += `OverrideNamedEngramEntries=(EngramClassName="${EngramClassname}",EngramLevelRequirement=${RequiredLevel},EngramPointsCost=${EPCost},EngramHidden=false,RemoveEngramPreReq=true)\n`;
     }
   }, 500);
 
@@ -132,6 +128,12 @@ ForEach{
     sPlusReplacementsPromise,
     engramDetailsPromise,
   ]).then(([sPlusReplacements, engramDetails]) => {
+
+    sPlusReplacements.data = sPlusReplacements.data
+	  .filter(({ReplacedEngramName}) => ReplacedEngramName && ReplacedEngramName !== 'NONE' && ReplacedEngramName !== 'UNKNOWN' )
+	  .filter(({ReplacedEngramName}) => engramDetails.data.some(({EngramClassname}) => `${ReplacedEngramName}_C` === EngramClassname))
+	;
+
     console.log({sPlusReplacements, engramDetails});
 
     document.getElementById('overrides').value = calculateMethod1(sPlusReplacements, engramDetails);
