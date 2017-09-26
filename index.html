@@ -104,7 +104,7 @@ ForEach{
 
     output.value = `bOnlyAllowSpecifiedEngrams=true\n`;
     output.value += `; unmodified vanilla engrams\n`;
-    for (const {EngramClassname, EPCost, RequiredLevel} of engramDetails.data) {
+    for (let {EngramClassname, EPCost, RequiredLevel} of engramDetails.data) {
       if (engramDetails.data.some(({ReplacedEngramName}) => EngramClassname === `${ReplacedEngramName}_C`)) {
         continue;
       }
