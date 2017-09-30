@@ -31,8 +31,7 @@ might be installed.
 <p>To get this list, open powershell by right-clicking your bottom-left windows icon and choose "powershell". There,
     insert this code:</p>
 <textarea rows="1">
-    (Get-ChildItem -Path $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 346110" -Name InstallLocation).InstallLocation + "\ShooterGame\Content\Mods") -Recurse -Filter *EngramEntry_*.uasset) |
-    Where-Object {$_.BaseName -notmatch  '_Child_'} |
+    (Get-ChildItem -Path $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 346110" -Name InstallLocation).InstallLocation + "\ShooterGame\Content\Mods") -Recurse -Filter *Engram*Entry_*.uasset) |
 ForEach{
 	$bytes = [System.IO.File]::ReadAllBytes($_.FullName);
 	$offset = [System.BitConverter]::ToUInt32($bytes, 0x49);
@@ -46,7 +45,7 @@ ForEach{
 <p>If this does not work (for example, if you did not install ark though steam or moved it to a different folder), open
     a powershell, <b>cd</b> to your ark installation folder and execute this:</p>
 <textarea rows="1">
-    (Get-ChildItem -Path .\ShooterGame\Content\Mods -Recurse -Filter *EngramEntry_*) |
+    (Get-ChildItem -Path .\ShooterGame\Content\Mods -Recurse -Filter *Engram*Entry_*) |
     ForEach{
 	$bytes = [System.IO.File]::ReadAllBytes($_.FullName);
 	$offset = [System.BitConverter]::ToUInt32($bytes, 0x49);
