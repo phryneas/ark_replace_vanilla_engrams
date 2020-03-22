@@ -68,12 +68,14 @@ ForEach{
     download: true,
     header: true,
     complete,
+    skipEmptyLines: true
   }));
 
   const engramDetailsPromise = new Promise((complete) => Papa.parse('./EngramDetails.csv', {
     download: true,
     header: true,
     complete,
+    skipEmptyLines: true
   }));
 
   const calculateMethod1 = _.memoize((sPlusReplacements, engramDetails) => {
